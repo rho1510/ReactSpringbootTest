@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/auth/signUp
+
+{
+  "kakaoNickname": "nicko",
+  "kakaoEmail": "nicko@naver.com",
+  "kakaoName": "timo",
+  "kakaoSex": "male",
+  "kakaoAge": 15,
+  "kakaoBirthday": "1995-01-01"
+}
