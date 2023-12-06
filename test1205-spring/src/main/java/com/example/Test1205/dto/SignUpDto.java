@@ -8,8 +8,9 @@ import java.util.Date;
 public class SignUpDto {
     private String kakaoNickname;
     private String kakaoEmail;
+    private String password;
+    private String passwordCheck;
     private String kakaoName;
-    private String kakaoSex;
-    private String kakaoAge;
+    private int kakaoAge;
     private Date kakaoBirthday;
 }
